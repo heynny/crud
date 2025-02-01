@@ -1,0 +1,62 @@
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footerContent {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logoContainer {
+    margin-bottom: 15px;
+  }
+  
+  .logo {
+    width: 120px;
+    height: auto;
+  }
+  
+  .businessName {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .address {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .phrase {
+    font-style: italic;
+    font-size: 18px;
+    margin: 10px 0;
+    color: #f1f1f1;
+  }
+  
+  .socialLinks {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .socialLink {
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .socialIcon {
+    width: 35px;
+    height: 35px;
+    transition: transform 0.3s ease;
+  }
+  
+  .socialIcon:hover {
+    transform: scale(1.1);
+  }
+  

@@ -1,0 +1,112 @@
+/* home.module.css */
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  /* Contenedor de texto */
+  .textContainer {
+    margin-bottom: 20px;
+  }
+  
+  /* Título */
+  .header {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  /* Párrafo */
+  .paragraph {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  /* Estilo del botón */
+  .button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  /* Estilos para el carrusel */
+  .carousel {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+  }
+  
+  .carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  /* Flechas para el carrusel */
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+  /* Acerca de nosotros */
+  .aboutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .aboutHeader {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .aboutParagraph {
+    font-size: 1.1rem;
+    color: #333;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .aboutImage {
+    margin-top: 20px;
+  }
+  
+  .image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+  }
+  
