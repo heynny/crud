@@ -1,10 +1,10 @@
-/* RegisterModule.css */
+
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #1e1e2f;
+    background-color: #e7e7f4;
 }
 
 .formContainer {

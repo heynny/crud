@@ -20,7 +20,6 @@ const Events = () => {
 
     const handleInscription = (eventId) => {
         alert(`Te has inscrito al evento con ID: ${eventId}`);
-        // Aquí podrías hacer una petición para inscribirse en el evento
     };
 
     return (

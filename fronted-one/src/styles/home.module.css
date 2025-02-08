@@ -1,6 +1,4 @@
-/* home.module.css */
 
-/* Contenedor principal */
 .container {
     display: flex;
     flex-direction: column;
@@ -10,7 +8,7 @@
     text-align: center;
   }
   
-  /* Contenedor de texto */
+  
   .textContainer {
     margin-bottom: 20px;
   }

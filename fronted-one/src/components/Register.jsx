@@ -14,7 +14,7 @@ const Register = () => {
     setError("");
 
     try {
-      const response = await apiClient.post("/Register", {
+      const response = await apiClient.post("users/register", {
         name,
         email,
         password,
@@ -63,8 +63,9 @@ const Register = () => {
             placeholder="cliente/admin"
             value={Rol}
             onChange={(e) => setRol(e.target.value)}
-            className="w-full px-4 py-2 mb-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className={`${styles.input} mb-4`}
           />
+
           <button
             type="submit"
             className={`${styles.button} w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600`}

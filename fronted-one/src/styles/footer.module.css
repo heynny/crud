@@ -1,62 +1,76 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+}
+
 .footer {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-  }
-  
-  .footerContent {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .logoContainer {
-    margin-bottom: 15px;
-  }
-  
-  .logo {
-    width: 120px;
-    height: auto;
-  }
-  
-  .businessName {
-    font-size: 24px;
-    font-weight: bold;
-    margin: 10px 0;
-  }
-  
-  .address {
-    font-size: 16px;
-    margin: 10px 0;
-  }
-  
-  .phrase {
-    font-style: italic;
-    font-size: 18px;
-    margin: 10px 0;
-    color: #f1f1f1;
-  }
-  
-  .socialLinks {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-  }
-  
-  .socialLink {
-    display: inline-block;
-    text-decoration: none;
-  }
-  
-  .socialIcon {
-    width: 35px;
-    height: 35px;
-    transition: transform 0.3s ease;
-  }
-  
-  .socialIcon:hover {
-    transform: scale(1.1);
-  }
-  
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.footerContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logoContainer {
+  flex: 1;
+  text-align: left;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+.businessName {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.address {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.phrase {
+  font-style: italic;
+  font-size: 14px;
+  margin: 5px 0;
+  color: #f1f1f1;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 10px;
+}
+
+.socialLink {
+  text-decoration: none;
+}
+
+.socialIcon {
+  width: 25px;
+  height: 25px;
+  transition: transform 0.3s ease;
+}
+
+.socialIcon:hover {
+  transform: scale(1.1);
+}

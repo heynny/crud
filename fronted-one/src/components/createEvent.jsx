@@ -15,7 +15,7 @@ const CreateEvent = () => {
 
     const handleEvent = async (e) => {
         e.preventDefault();
-        setError(""); // Limpiar errores previos
+        setError("");
 
         try {
             const response = await apiClient.post("/Event/CreateEvent", {

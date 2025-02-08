@@ -5,7 +5,7 @@ import Home from "./Home";
 import Login from "./Login";
 import Register from "./Register";
 import Events from "./Events";
-import Footer from "./Footer";  // Asegúrate de importar el Footer
+import Footer from "./Footer"; 
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
         <Route path="/Register" element={<Register />} />
         <Route path="/Events" element={<Events />} />
       </Routes>
-      <Footer /> {/* Coloca el Footer aquí */}
+      <Footer /> {}
     </>
   );
 };

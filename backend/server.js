@@ -15,7 +15,7 @@ try {
     await conectarDB();
     console.log("🔥 Conexión a MongoDB exitosa!");
 
-    // Si la conexión es exitosa, luego registramos las rutas y arrancamos el servidor
+
     app.use("/api/authentication", require("./src/routes/authRoutes"));
     app.use("/api/events", require("./src/routes/eventRoutes"));
     app.use("/api/users", require("./src/routes/userRoutes"));

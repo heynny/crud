@@ -1,35 +1,68 @@
 import React from 'react';
-import "../styles/footer.module.css";
+import styles from '../styles/footer.module.css';
 
 function Footer() {
     return (
-    <footer className="footer">
-        <div className="footer-content">
-        <div className="logo-container">
-            {/* Usamos las imágenes directamente desde la carpeta public */}
-            <img src="/imgs/lindo.png" alt="Eventtify Logo" className="footer-logo" />
-        </div>
-        <p className="business-name">Eventtify</p>
-        <p className="address">Dirección: Calle Ficticia 123, Ciudad</p>
-        <p className="phrase">"¡Haz que cada momento sea único con Eventtify!"</p>
-
-        {/* Redes sociales en la parte inferior */}
-        <div className="social-links">
-            <a href="mailto:specialmoments@eventtify.com" className="social-link">
-                <img src="/imgs/gmail.png" alt="Gmail" className="social-icon" />
-            </a>
-            <a href="https://www.instagram.com/eventtify" className="social-link">
-                <img src="/imgs/instagram.png" alt="Instagram" className="social-icon" />
-            </a>
-            <a href="https://www.facebook.com/eventtify" className="social-link">
-                <img src="/imgs/facebook.png" alt="Facebook" className="social-icon" />
-            </a>
-            <a href="https://www.tiktok.com/@eventtify" className="social-link">
-                <img src="/imgs/tiktok.png" alt="TikTok" className="social-icon" />
-            </a>
-        </div>
-        </div>
-    </footer>
+        <footer className={styles.footer}>
+            <div className={styles.footerContent}>
+                <div className={styles.logoContainer}>
+                    <img
+                        src="/imgs/lindo.png"
+                        alt="Eventtify Logo"
+                        className={styles.logo}
+                    />
+                </div>
+                <p className={styles.businessName}>Eventtify</p>
+                <p className={styles.address}>
+                    Dirección: Calle Ficticia 123, Ciudad
+                </p>
+                <p className={styles.phrase}>
+                    "¡Haz que cada momento sea único con Eventtify!"
+                </p>
+                <div className={styles.socialLinks}>
+                    <a
+                        href="mailto:specialmoments@eventtify.com"
+                        className={styles.socialLink}
+                    >
+                        <img
+                            src="/imgs/gmail.png"
+                            alt="Gmail"
+                            className={styles.socialIcon}
+                        />
+                    </a>
+                    <a
+                        href="https://www.instagram.com/eventtify"
+                        className={styles.socialLink}
+                    >
+                        <img
+                            src="/imgs/instagram.png"
+                            alt="Instagram"
+                            className={styles.socialIcon}
+                        />
+                    </a>
+                    <a
+                        href="https://www.facebook.com/eventtify"
+                        className={styles.socialLink}
+                    >
+                        <img
+                            src="/imgs/facebook.png"
+                            alt="Facebook"
+                            className={styles.socialIcon}
+                        />
+                    </a>
+                    <a
+                        href="https://www.tiktok.com/@eventtify"
+                        className={styles.socialLink}
+                    >
+                        <img
+                            src="/imgs/tiktok.png"
+                            alt="TikTok"
+                            className={styles.socialIcon}
+                        />
+                    </a>
+                </div>
+            </div>
+        </footer>
     );
 }
 
